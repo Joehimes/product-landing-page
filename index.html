@@ -11,15 +11,62 @@
     <header class="header" id="header">
         <nav class="nav-bar" id="nav-bar">
             <ul>
-                <li><a href="#"><img class="header-img" id="header-img" src="#" alt="company logo"></a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="col-2"><a href="#title"><img class="header-img col-2" id="header-img" src="https://image.shutterstock.com/image-vector/coffee-logo-600w-514803028.jpg" alt="company logo"></a></li>
+                <li class="col-3"><a class="nav-link" href="#title">Home</a></li>
+                <li class="col-3"><a class="nav-link" href="#about">About</a></li>
+                <li class="col-3"><a class="nav-link" href="#email-form">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
 
+    <div class="headline">
+        <h1 class="title" id="title">Joe's Coffee</h1>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-video">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/vNtrp0M-qs4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="about-info">
+            <h1>Our Brewing Process</h1>
+            <p>We take great pride in the entire process of coffeemaking, from the roast to the grind to the brew. Try a cup and we think you will agree that the process makes a difference.</p>
+        </div>
+    </div>
+
+    <div class="coffee-cards">
+        <div class="card">
+            <div class="card-title">
+                <h1>Pour over</h1>
+            </div>
+            <div class="card-body">
+                <p>Hot water is poured over the grounds slowly. A simple and quick way to brew a great cup of coffee.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-title">
+                <h1>French press</h1>
+            </div>
+            <div class="card-body">
+                <p>A bolder, full-bodied method. Because the grounds are directly immersed in the water the flavor is stronger.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-title">
+                <h1>Espresso</h1>
+            </div>
+            <div class="card-body">
+                <p>Quickly produced small shots of coffee. Often stronger and creamier than traditionally brewed coffee.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="email-form" id="email-form">
+        <h1>Stay in touch!</h1>
+        <form action="https://www.freecodecamp.com/email-submit" class="from" id="form">
+            <input class="email" id="email" type="email" name="email" placeholder="example@email.com">
+            <input class="submit" id="submit" type="submit">
+        </form>
+    </div>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
